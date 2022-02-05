@@ -61,7 +61,7 @@
 #define BS2B_DEFAULT_SRATE   44100
 
 /* A delay at low frequency by microseconds according to cut frequency */
-#define bs2b_level_delay( fcut ) ( ( 18700 / fcut ) * 10 )
+#define bs2b_level_delay( fcut ) ( 500 )
 
 typedef struct
 {
